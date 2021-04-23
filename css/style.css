@@ -19,19 +19,18 @@
     float: right;
 }
 
-
-a{
-    text-decoration: none;
-    color: #929292;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
 .container{
     max-width: 1000px;
     margin: 30px auto 0 auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    color: #929292;
 }
 
 #logo{
@@ -48,6 +47,8 @@ ul{
 li{
     display: inline-block;
     margin-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 li:last-child{
@@ -61,6 +62,16 @@ main{
     border-radius: 10px;
 }
 
+main h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+main p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .main-text{
     color: white;
     width: 60%;
@@ -68,15 +79,30 @@ main{
 }
 
 article{
-    /* background-color: #0086ff; */
     padding-bottom: 30px;
 }
 
-.articles-title{
-    height: 50px;
-    /* background-color: #abcfe7; */
+article h1{
+    font-size: 35px;
 }
 
+article h3{
+    font-size: 14px;
+    color: #919191 ;
+    font-weight: 300;
+}
+
+article h4{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 0 10px 0;
+}
+
+article p{
+    color: #919191 ;
+    font-size: 15px;
+    font-weight: 400;
+}
 
 .pictures{
     background-size: cover;
@@ -120,6 +146,7 @@ article{
 footer{
     margin-top: 15px;
     text-align: center;
+    padding-bottom: 15px;
 }
 .heart{
     color: red;
