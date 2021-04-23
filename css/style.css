@@ -38,6 +38,10 @@ header a{
     color: #929292;
 }
 
+li>a:hover{
+    color: black; 
+ }
+
 ul{
     list-style: none;
     padding-top: 30px;
@@ -154,3 +158,4 @@ footer{
     background-color: hsla(0, 0%, 0%, 0.2);
     border-radius: 10px;
   }
+
